@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    font-family: "Inter",sans-serif;
+}
+.logo{
+    width: 25px;
+}
+.text-hover-blue:hover{
+    color: #1c1cff;
+}
+.text-gray{
+    color: #666666;
+}
+.focus-gray:focus{
+    background-color: #f2f2f2;
+}
+.hover-gray:hover{
+    background-color: #f2f2f2;
+}
+/* @media screen and (min-width:992px){
+    .h-md{
+        height: 82.5vh;
+    }
+} */
+.hover-blue{
+    color: black;
+}
+.hover-blue:hover{
+    color: blue;
+}
