@@ -8,8 +8,11 @@ body{
 .text-hover-blue:hover{
     color: #1c1cff;
 }
-.bg-blue{
-    background-color: #1c1cff;
+.hover-blue:hover{
+    color: #1c1cff;
+}
+.hover-blue{
+    color: black;
 }
 .text-gray{
     color: #666666;
@@ -20,25 +23,52 @@ body{
 .focus-gray:focus{
     background-color: #f2f2f2;
 }
+.p-12{
+    padding: 12px;
+}
+.bg-blue{
+    background-color: #1c1cff;
+}
+.bg-white-1{
+    background-color: #fcfcfc;
+}
+.bg-white-2{
+    background-color: #f6f6f6;
+}
+.bg-white-blue{
+    background-color: #dbe6f6;
+}
+.bg-purple-light{
+    background-color:  #e8e8ff;
+}
+.bg-aqua-light-2{
+    background-color: #e1fefa;
+}
+.bg-pink-light{
+    background-color: #ffe5f9;
+}
+.bg-aqua-light{
+    background-color: #ccfcff;
+}
+.bg-orange-light{
+    background-color: #ffe3d3;
+}
+.bg-aqua{
+    background-color: #e9fbfa;
+}
+.bg-hover-gray:hover{
+    background-color: lightgray;
+}
+.bg-hover-purple:hover{
+    background-color: #d1d1ff;
+}
 .hover-gray:hover{
     background-color: #f2f2f2;
-}
-/* @media screen and (min-width:992px){
-    .h-md{
-        height: 82.5vh;
-    }
-} */
-.hover-blue{
-    color: black;
-}
-.hover-blue:hover{
-    color: #1c1cff;
 }
 .b-shadow{
     transition: all .2s;
 }
 .b-shadow:hover{
-    
     box-shadow: 4px 4px lightgray;
 }
 .scale-hover{
@@ -47,12 +77,6 @@ body{
 .scale-hover:hover,.scale-active:active{
     box-shadow: 0 0 ;
     transform: scale(1.03);
-}
-.bg-aqua{
-    background-color: #e9fbfa;
-}
-.bg-hover-gray:hover{
-    background-color: lightgray;
 }
 .img-1{
     background: url(/assets/img/wallet.webp) no-repeat center;
@@ -106,15 +130,35 @@ body{
 .cs-pointer{
     cursor: pointer;
 }
-.bg-hover-purple:hover{
-    background-color: #d1d1ff;
-}
-.bg-purple-light{
-    background-color:  #e8e8ff;
-}
 .h-300{
     height: 300px;
 }
+.h-330{
+    height: 330px;
+}
 .h-180{
     height: 180px;
+}
+.h-210{
+    height: 210px;
+}
+.h-230{
+    height: 230px;
+}
+.logo-helpful{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    background-color: #1c1cff;
+    color: white;
+    transition: all .1s;
+}
+.logo-helpful:hover{
+    transform: scale(1.07);
 }
