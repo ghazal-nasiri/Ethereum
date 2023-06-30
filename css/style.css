@@ -76,6 +76,24 @@ body{
     background-color: #e9fbfa; 
     height: 300px;
 }
+.img-5{
+    background: url(/assets/img/merge.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
+.img-6{
+    background: url(/assets/img/infrastructure_transparent.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
+.img-7{
+    background: url(/assets/img/enterprise-eth.webp) no-repeat center;
+    background-color: #e9fbfa; 
+    background-size: contain;
+    height: 300px;
+}
 .b-shadow-purple{
     box-shadow: 4px 4px #d2d2f9;
 }
@@ -90,4 +108,10 @@ body{
 }
 .bg-purple-light{
     background-color:  #e8e8ff;
+}
+.h-300{
+    height: 300px;
+}
+.h-180{
+    height: 180px;
 }
