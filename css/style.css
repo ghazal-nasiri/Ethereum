@@ -79,3 +79,12 @@ body{
 .b-shadow-purple{
     box-shadow: 4px 4px #d2d2f9;
 }
+.fs-14{
+    font-size: 14px;
+}
+.cs-pointer{
+    cursor: pointer;
+}
+.bg-hover-purple:hover{
+    background-color: #d1d1ff;
+}
