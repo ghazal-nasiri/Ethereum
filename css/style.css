@@ -79,13 +79,13 @@ body{
     transform: scale(1.03);
 }
 .img-1{
-    background: url(./assets/img/wallet.webp) no-repeat center;
+    background: url(../assets/img/wallet.webp) no-repeat center;
     background-color: #e9fbfa;
     background-size: contain;
     height: 300px;
 }
 .img-2{
-    background: url(./assets/img/eth.png) no-repeat center;
+    background: url(../assets/img/eth.png) no-repeat center;
     height: 300px;
     background-size: contain;
     background-color: #e9fbfa;
@@ -93,30 +93,30 @@ body{
     height: 300px;
 }
 .img-3{
-    background: url(./assets/img/doge-computer.webp) no-repeat center;
+    background: url(../assets/img/doge-computer.webp) no-repeat center;
     background-color: #e9fbfa;
     background-size: contain;
     height: 300px;
 }
 .img-4{
-    background: url(./assets/img/developers-eth-blocks.webp) no-repeat center;
+    background: url(../assets/img/developers-eth-blocks.webp) no-repeat center;
     background-color: #e9fbfa; 
     height: 300px;
 }
 .img-5{
-    background: url(./assets/img/merge.webp) no-repeat center;
+    background: url(../assets/img/merge.webp) no-repeat center;
     background-color: #e9fbfa; 
     background-size: contain;
     height: 300px;
 }
 .img-6{
-    background: url(./assets/img/infrastructure_transparent.webp) no-repeat center;
+    background: url(../assets/img/infrastructure_transparent.webp) no-repeat center;
     background-color: #e9fbfa; 
     background-size: contain;
     height: 300px;
 }
 .img-7{
-    background: url(./assets/img/enterprise-eth.webp) no-repeat center;
+    background: url(../assets/img/enterprise-eth.webp) no-repeat center;
     background-color: #e9fbfa; 
     background-size: contain;
     height: 300px;
